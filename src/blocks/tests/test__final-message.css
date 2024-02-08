@@ -1,0 +1,6 @@
+.test__final-message {
+  font-family: var(--bold-font);
+  color: rgb(var(--grey));
+  font-size: 54px;
+  margin: 0;
+}

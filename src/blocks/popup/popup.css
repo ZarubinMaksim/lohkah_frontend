@@ -1,0 +1,11 @@
+.popup {
+  position: fixed;
+  padding: 8px 8px 15px 10px;
+  box-sizing: border-box;
+  width: 130px;
+  background-color: rgb(var(--light-grey));
+  display: none;
+  flex-direction: column;
+  gap: 3px;
+  border: 1px solid rgb(var(--grey));
+}

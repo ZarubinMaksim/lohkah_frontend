@@ -1,0 +1,11 @@
+.popup__element {
+  padding-left: 2px;
+  font-family: var(--light-font);
+  color: rgb(var(--grey));
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.popup__element:hover {
+  background-color: rgb(var(--red));
+}

@@ -1,0 +1,132 @@
+/* CONSTANTS */
+@import url(./blocks/constants/constants.css);
+
+/* VENDORS  */
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+/* PAGE */
+@import url(./blocks/page/page.css);
+@import url(./blocks/page/page__title.css);
+@import url(./blocks/page/page__title_txt.css);
+
+/* LINK */
+@import url(./blocks/link/link.css);
+
+/* BUTTON */
+@import url(./blocks/buttons/button.css);
+
+/* HEADER */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/header__img.css);
+
+/* CONTENT */
+@import url(./blocks/content/content.css);
+
+/* CARD */
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/card__manage.css);
+@import url(./blocks/card/card__content.css);
+@import url(./blocks/card/card__informcover.css);
+@import url(./blocks/card/card__title.css);
+@import url(./blocks/card/card__manage_icon.css);
+@import url(./blocks/card/card__title_active.css);
+
+/* LESSON */
+@import url(./blocks/lesson/lesson.css);
+
+/* WORD */
+@import url(./blocks/word/word.css);
+@import url(./blocks/word/word__content.css);
+@import url(./blocks/word/word__textcontent.css);
+@import url(./blocks/word/word__title.css);
+@import url(./blocks/word/word__title_vertical.css);
+@import url(./blocks/word/word__translate.css);
+@import url(./blocks/word/word__example.css);
+@import url(./blocks/word/word__button.css);
+@import url(./blocks/word/word__button_img.css);
+@import url(./blocks/word/word__admin-panel.css);
+
+/* TRANSITION */
+@import url(./blocks/transitiom.css);
+
+/* HIDEN */
+@import url(./blocks/hidden/hidden.css);
+
+/* AUTH */
+@import url(./blocks/auth/auth.css);
+@import url(./blocks/auth/auth__container.css);
+@import url(./blocks/auth/auth__title.css);
+@import url(./blocks/auth/auth__form.css);
+@import url(./blocks/auth/auth__form__input-block.css);
+@import url(./blocks/auth/auth__form_input.css);
+
+/* ADDWORD */
+@import url(./blocks/add-word/add-word.css);
+@import url(./blocks/add-word/add-word__container.css);
+@import url(./blocks/add-word/add-word__title.css);
+@import url(./blocks/add-word/add-word__form.css);
+@import url(./blocks/add-word/add-word__form__input-block.css);
+@import url(./blocks/add-word/add-word__list.css);
+
+/* PROFILE */
+@import url(./blocks/profile/profile.css);
+@import url(./blocks/profile/profile__logout.css);
+@import url(./blocks/profile/profile__name.css);
+@import url(./blocks/profile/profile__results_container.css);
+@import url(./blocks/profile/profile__result.css);
+
+
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/popup__element.css);
+@import url(./blocks/popup/popup__active.css);
+@import url(./blocks/popup/popup__button-close.css);
+@import url(./blocks/popup/popup__container.css);
+@import url(./blocks/popup/popup__button-submit.css);
+@import url(./blocks/popup/popup__list-element.css);
+@import url(./blocks/popup/popup__element_chosen.css);
+
+/* LANGUAGE */
+@import url(./blocks/language/language.css);
+@import url(./blocks/language/language__active.css);
+
+/* ERROR */
+@import url(./blocks/error/error.css);
+@import url(./blocks/error/error__active.css);
+
+/* TESTS */
+@import url(./blocks/tests/tests.css);
+@import url(./blocks/tests/test__container.css);
+@import url(./blocks/tests/test__main-word.css);
+@import url(./blocks/tests/test__answer-button.css);
+@import url(./blocks/tests/test__answer-button_container.css);
+@import url(./blocks/tests/test__answer-button_correct.css);
+@import url(./blocks/tests/test__answer-button_wrong.css);
+@import url(./blocks/tests/test__answer-input.css);
+@import url(./blocks/tests/test__answer-input_correct.css);
+@import url(./blocks/tests/test__answer-input_wrong.css);
+@import url(./blocks/tests/test__help.css);
+@import url(./blocks/tests/test__skip.css);
+@import url(./blocks/tests/test__final-message.css);
+@import url(./blocks/tests/test__final-link.css);
+
+/* SPEACH */
+@import url(./blocks/speach/speach.css);
+@import url(./blocks/speach/speach__element.css);
+@import url(./blocks/speach/speach__adjustments.css);
+@import url(./blocks/speach/speach__adjustment_detailed.css);
+
+@import url(./blocks/speach/animation.css);
+@import url(./blocks/speach/speach__element_animated.css);
+@import url(./blocks/speach/speach__phrase_previous.css);
+@import url(./blocks/speach/speach__phrase_next.css);
+@import url(./blocks/speach/speach__phrase.css);
+@import url(./blocks/speach/speach__phrase_current.css);
+@import url(./blocks/speach/speach__phrase_current-moved_back.css);
+@import url(./blocks/speach/speach__phrase_previous-moved_back.css);
+@import url(./blocks/speach/speach__phrase_next-moved_back.css);
+@import url(./blocks/speach/speach__move-button.css);
+@import url(./blocks/speach/speach__move-button_back.css);
+@import url(./blocks/speach/speach__actual.css);
+@import url(./blocks/speach/speach__pian-ying.css);
+

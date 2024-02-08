@@ -1,0 +1,25 @@
+.language {
+  display: flex;
+  gap: 5px;
+  width: fit-content;
+  align-self: flex-end;
+  font-family: var(--bold-font);
+}
+
+.language p {
+  margin: 0;
+  opacity: .5;
+}
+
+.language p:hover {
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(var(--red))
+}
+
+@media screen and (min-width: 1450px) {
+  .language {
+    font-size: 25px;
+  }
+} 

@@ -1,0 +1,6 @@
+.error {
+  margin: 0;
+  font-family: var(--light-font);
+  color: rgb(var(--red));
+  display: none;
+}

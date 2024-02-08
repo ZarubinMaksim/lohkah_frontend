@@ -1,0 +1,6 @@
+.profile__name {
+  margin: 0;
+  font-family: var(--bold-font);
+  font-size: 46px;
+  margin-bottom: 15px;
+}

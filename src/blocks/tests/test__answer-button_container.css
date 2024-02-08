@@ -1,0 +1,14 @@
+.test__answer-button_container {
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* grid-auto-flow: row; */
+  gap: 7px;
+}
+
+@media screen and (max-width: 450px) {
+  .test__answer-button_container  {
+    grid-template-columns: auto;
+  }
+}

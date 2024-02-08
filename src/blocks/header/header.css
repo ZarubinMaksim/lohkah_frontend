@@ -1,0 +1,14 @@
+.header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 460px) {
+  .header{
+    flex-direction: row;
+  }
+} 

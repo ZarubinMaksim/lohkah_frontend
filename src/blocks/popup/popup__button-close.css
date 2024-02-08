@@ -1,0 +1,8 @@
+.popup__button-close {
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  align-self: flex-end;
+  cursor: pointer;
+  z-index: 1;
+}

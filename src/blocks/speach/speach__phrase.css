@@ -1,0 +1,21 @@
+.speach__phrase {
+  /* border: 1px solid red; */
+  margin: 0;
+  width: fit-content;
+  height: 50px;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  font-size: 28px;
+  opacity: .3;
+  
+
+
+  animation-duration: .3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-direction: normal;
+}

@@ -1,0 +1,25 @@
+.add-word__container {
+    width: 70%;
+    max-width: 400px;
+    height: fit-content;
+    padding: 35px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(var(--grey), .15); */
+    color: rgb(var(--grey));
+    border-radius: 10px;
+    box-shadow: 0 80px 200px 5px rgb(var(--grey));
+}
+
+@media screen and (min-width: 1450px) {
+    .add-word__container  {
+      max-width: 800px;
+    }
+}  
+
+@media screen and (max-width: 460px) {
+  .add-word__container {
+    width: auto;
+  }
+} 

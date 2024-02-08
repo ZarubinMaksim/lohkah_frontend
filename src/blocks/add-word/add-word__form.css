@@ -1,0 +1,12 @@
+.add-word__form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 1450px) {
+  .add-word__form {
+    gap: 15px;
+  }
+} 

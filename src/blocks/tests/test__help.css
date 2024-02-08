@@ -1,0 +1,8 @@
+.test__help {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  opacity: .6;
+  font-family: var(--light-font);
+  margin-bottom: 5px;
+}

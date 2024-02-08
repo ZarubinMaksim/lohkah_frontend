@@ -1,0 +1,12 @@
+.auth__form_input {
+  height: 35px;
+  border: 1px solid rgb(var(--grey), .6);
+  border-radius: 5px;
+  font-family: var(--light-font);
+  font-size: 20px;
+}
+
+.auth__form_input::placeholder {
+  font-size: 15px;
+  opacity: .5;
+}

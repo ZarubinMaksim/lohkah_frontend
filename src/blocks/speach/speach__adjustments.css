@@ -1,0 +1,10 @@
+.speach__adjustments {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.speach__adjustments input{
+  display: flex;
+  gap: 5px;
+}

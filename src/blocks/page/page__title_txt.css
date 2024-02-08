@@ -1,0 +1,20 @@
+.page__title_txt {
+  margin: 0;
+  font-family: var(--bold-font);
+  color: rgb(var(--red));
+  font-size: 7vw;
+  text-align: center;
+  width: fit-content;
+}
+
+@media screen and (min-width: 1380px) {
+  .page__title_txt {
+    font-size: 97px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page__title_txt {
+    font-size: 35px;
+  }
+}

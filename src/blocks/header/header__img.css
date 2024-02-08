@@ -1,0 +1,11 @@
+.header__img {
+  width: 20px;
+  opacity: .5;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+
+.header__img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}

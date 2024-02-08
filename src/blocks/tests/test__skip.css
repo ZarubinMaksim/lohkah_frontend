@@ -1,0 +1,10 @@
+.test__skip {
+  font-family: var(--light-font);
+  color: rgb(var(--grey));
+  cursor: pointer;
+}
+
+.test__skip:hover {
+  color: rgb(var(--red));
+  text-decoration: underline;
+}

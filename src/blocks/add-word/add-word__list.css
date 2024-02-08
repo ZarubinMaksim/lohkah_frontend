@@ -1,0 +1,7 @@
+.add-word__list {
+  border: 1px dotted rgb(var(--light-grey));
+  width: fit-content;
+  height: fit-content;
+  font-family: var(--light-font);
+  color: rgb(var(--grey));
+}

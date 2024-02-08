@@ -1,0 +1,14 @@
+.card__title {
+  margin: 0;
+  font-family: var(--bold-font);
+  font-size: 8vh;
+  color: rgb(var(--grey));
+  text-align: center;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 330px) {
+  .card__title {
+    font-size: 36px;
+  }
+}

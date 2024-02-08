@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Baseone';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./BaseOne-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./Quicksand-Regular.ttf) format("truetype");
+}

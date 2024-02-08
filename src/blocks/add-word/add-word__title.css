@@ -1,0 +1,11 @@
+.add-word__title {
+  margin: 0;
+  font-family: var(--bold-font);
+  font-size: 45px;
+}
+
+@media screen and (min-width: 1450px) {
+  .add-word__title {
+    font-size: 65px;
+  }
+}

@@ -1,0 +1,27 @@
+.card {
+  background-color:rgb(var(--light-grey), .5);
+  width: 40vw;
+  height: auto;
+  min-height: 30vh;
+  /* min-width: 258px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+  transition: .2s ease;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card:hover {
+  background-color:rgb(var(--dark-grey));
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: 70vw;
+    height: 100%;
+  }
+}

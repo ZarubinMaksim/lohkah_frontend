@@ -1,0 +1,20 @@
+.test__main-word {
+  color: rgb(var(--grey));
+  font-family: var(--bold-font);
+  font-size: 78px;
+  margin: 15px 0 15px 0;
+  text-align: center;
+  word-break: break-word;
+}
+
+/* @media screen and (min-width: 1380px) {
+  .test__main-word {
+    font-size: 97px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .test__main-word {
+    font-size: 35px;
+  }
+} */

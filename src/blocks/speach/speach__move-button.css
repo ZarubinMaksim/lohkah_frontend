@@ -1,0 +1,8 @@
+.speach__move-button {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.speach__move-button:hover {
+  opacity: 1;
+}

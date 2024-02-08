@@ -1,0 +1,12 @@
+.word__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .3;
+  transition: .15s ease-in-out;
+  cursor: pointer;
+}
+
+.word__button:hover {
+  opacity: .7;
+}

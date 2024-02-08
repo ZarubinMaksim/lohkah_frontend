@@ -1,0 +1,18 @@
+.test__answer-button {
+  color: rgb(var(--grey));
+  font-family: var(--light-font);
+  text-transform: capitalize;
+  font-size: 24px;
+  /* width: 250px; */
+  min-width: 150px;
+  min-height: 40px;
+  background-color: rgb(var(--light-grey));
+  border: none;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 610px) {
+  .test__answer-button  {
+    width: 40vw;
+  }
+}

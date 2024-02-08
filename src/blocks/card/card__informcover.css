@@ -1,0 +1,7 @@
+.card__informcover {
+  margin: 0;
+  font-family: var(--bold-font);
+  font-size: 4vh;
+  text-align: center;
+  color: rgb(var(--red))
+}

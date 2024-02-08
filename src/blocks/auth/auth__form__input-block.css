@@ -1,0 +1,10 @@
+.auth__form__input-block {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__form__input-block label {
+  margin-left: 4px;
+  font-size: 25px;
+}

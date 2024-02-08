@@ -1,0 +1,18 @@
+.speach__adjustment_detailed {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speach__adjustment_detailed p {
+  margin: 0;
+}
+
+.speach__adjustment_detailed input {
+  height: 60px;
+  width: 120px;
+  font-size: 42px;
+}
+

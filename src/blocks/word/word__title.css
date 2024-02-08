@@ -1,0 +1,13 @@
+.word__title {
+  margin: 0;
+  font-family: var(--light-font);
+  font-size: 75px;
+  color: rgb(var(--grey))
+}
+
+@media screen and (max-width: 550px) {
+  .word__title {
+    font-size: 35px;
+    white-space: wrap;
+  }
+}

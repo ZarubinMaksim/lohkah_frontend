@@ -1,0 +1,12 @@
+.popup__button-submit {
+  color: rgb(var(--grey));
+  background-color: rgb(var(--red));
+  font-family: var(--light-font);
+  position: sticky;
+  bottom: 0;
+  border: none;
+  padding: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  
+}

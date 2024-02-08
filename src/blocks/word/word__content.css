@@ -1,0 +1,19 @@
+.word__content {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  min-width: 50vw;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color:rgb(var(--light-grey), .5);
+  gap: 5px;
+}
+
+@media screen and (max-width: 550px) {
+  .word__content {
+    width: 90vw;
+    gap: 10px;
+  }
+}

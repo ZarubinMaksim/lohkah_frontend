@@ -1,0 +1,10 @@
+.speach {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+  margin: 25px;
+  box-sizing: border-box;
+} 

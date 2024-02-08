@@ -1,0 +1,11 @@
+.word__translate {
+  margin: 0;
+  font-family: var(--light-font);
+  font-size: 45px;
+}
+
+@media screen and (max-width: 550px) {
+  .word__translate {
+    font-size: 25px;
+  }
+}
