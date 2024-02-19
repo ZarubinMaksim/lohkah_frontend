@@ -1,10 +1,13 @@
 .word {
   width: fit-content;
   height: fit-content;
+  /* max-height: 95vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 50px;
+  word-break: break-word;
 }
 
 @media screen and (max-width: 550px) {

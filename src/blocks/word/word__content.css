@@ -1,7 +1,7 @@
 .word__content {
   display: flex;
   justify-content: space-between;
-  width: 60vw;
+  width: fit-content;
   min-width: 50vw;
   text-align: center;
   padding: 10px 5px 10px 5px;

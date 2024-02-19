@@ -183,8 +183,8 @@ class Api {
 };
 
 const MainApi = new Api({
-  // baseUrl: 'https://api.leka-english.online'
-  baseUrl: 'http://localhost:3000'
+  baseUrl: 'http://api.leka-english.online'
+  // baseUrl: 'http://localhost:3000'
 });
 
 export default MainApi;

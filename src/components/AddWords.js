@@ -51,18 +51,18 @@ function AddWords ({ onSubmit, handleLanguage, isLanguageEnglish, onChange, word
           </p>
           <p className="add-word__form__input-block">
             <label for="lesson">{isLanguageEnglish ? ENG.lesson_input : CN.lesson_input}</label>
-            <input type="text" onChange={onChange} onInput={handleValidity} name="lessonName" id="lesson" placeholder={isLanguageEnglish ? ENG.lesson_placeholder : CN.lesson_placeholder} required minLength={3} maxLength={15}/>
-            <p id="lesson-error" className="error">Lesson should be from 3 to 15 symbols</p>
+            <input type="text" onChange={onChange} onInput={handleValidity} name="lessonName" id="lesson" placeholder={isLanguageEnglish ? ENG.lesson_placeholder : CN.lesson_placeholder} required minLength={2} maxLength={15}/>
+            <p id="lesson-error" className="error">Lesson should be from 2 to 15 symbols</p>
           </p>
           <p className="add-word__form__input-block">
             <label for="cn">{isLanguageEnglish ? ENG.cn_input : CN.cn_input}</label>
-            <input ref={cnRef} type="text" onChange={onChange} onInput={handleValidity} name="cn" id="cn" placeholder={isLanguageEnglish ? ENG.cn_placeholder : CN.cn_placeholder} required minLength={1} maxLength={10}/>
-            <p id="cn-error" className="error">Word should be from 2 to 10 symbols</p>
+            <input ref={cnRef} type="text" onChange={onChange} onInput={handleValidity} name="cn" id="cn" placeholder={isLanguageEnglish ? ENG.cn_placeholder : CN.cn_placeholder} required minLength={1} maxLength={20}/>
+            <p id="cn-error" className="error">Word should be from 2 to 20 symbols</p>
           </p>
           <p className="add-word__form__input-block">
             <label for="eng">{isLanguageEnglish ? ENG.eng_input : CN.eng_input}</label>
-            <input ref={engRef} type="text" onChange={onChange} onInput={handleValidity} name="eng" id="eng" placeholder={isLanguageEnglish ? ENG.eng_placeholder : CN.eng_placeholder} required minLength={2} maxLength={18}/>
-            <p id="eng-error" className="error">Word should be from 2 to 18 symbols</p>
+            <input ref={engRef} type="text" onChange={onChange} onInput={handleValidity} name="eng" id="eng" placeholder={isLanguageEnglish ? ENG.eng_placeholder : CN.eng_placeholder} required minLength={2} maxLength={50}/>
+            <p id="eng-error" className="error">Word should be from 2 to 50 symbols</p>
           </p>
           <p className="add-word__form__input-block">
             <label for="example">{isLanguageEnglish ? ENG.example_input : CN.example_input}</label>

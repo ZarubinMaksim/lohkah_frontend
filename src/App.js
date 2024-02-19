@@ -212,6 +212,7 @@ function App() {
 
   // handle update lesson
   const handleUpdateLesson = (currentDepartmentId, lessonId) => {
+    console.log('eto currentdepb i currles', currentDepartmentId, lessonId, formData)
     MainApi.changeLesson(currentDepartmentId, lessonId, formData)
       .then(() => {
         setIsDataChanged(true);

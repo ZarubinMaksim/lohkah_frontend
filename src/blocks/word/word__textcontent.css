@@ -1,5 +1,5 @@
 .word__textcontent {
-  width: 70%;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   gap: 10px;
